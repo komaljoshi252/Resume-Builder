@@ -55,7 +55,7 @@ public class UserLogin extends JFrame {
         
         
     	setLayout(new BorderLayout());
-    	setContentPane(new JLabel(new ImageIcon("C:\\\\Users\\\\joshi_f9n026d\\\\Downloads\\\\pexels-miguel-á-padriñán-255379.jpg")));
+    	setContentPane(new JLabel(new ImageIcon("C:\\\\Users\\\\joshi_f9n026d\\\\Downloads\\\\pexels-miguel-Ã¡-padriÃ±Ã¡n-255379.jpg")));
     	setLayout(new FlowLayout());
     	
     	c = getContentPane(); 
@@ -106,8 +106,8 @@ public class UserLogin extends JFrame {
                 }
                 else {
                 try {
-                    Connection connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/soon",
-                        "root", "Kittu@123");// connecting to database using jdbc driver
+                    Connection connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/dbname",
+                        "root", "Password");// connecting to database using jdbc driver
                     //using "jdbc:mysql://localhost:3306/dbname","username", "password"
                     //where username is by default "root" and password is the one set by you during mysql installation
 
